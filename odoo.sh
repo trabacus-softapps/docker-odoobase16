@@ -7,7 +7,7 @@ header "Installing Odoo Runint Script... "
 
 ## Install Odoo.
 run sudo -i -u odoo
-curl -Lf -o /opt/odoo/odoo.tar.gz https://nightly.odoo.com/15.0/nightly/tgz/odoo_15.0.20211101.tar.gz
+curl -Lf -o /opt/odoo/odoo.tar.gz https://nightly.odoo.com/16.0/nightly/tgz/odoo_16.0.20230801.tar.gz
 run mkdir -p /opt/odoo/{bin,etc,sources/odoo/addons,additional_addons,data,scrape} && \
         cd /opt/odoo/sources/odoo && \
         tar -xvf /opt/odoo/odoo.tar.gz --strip 1 && \
